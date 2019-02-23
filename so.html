@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>so-dulmcat</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Helvetica Neue,Arial,sans-serif;
+    }
+    html{
+      text-rendering: optimizeLegibility;
+      color: #3e3e3e;
+    }
+    h1{
+      text-align: center;
+      font-weight: 400;
+      margin: 40px;
+      font-size: 50px;
+    }
+    input, button{
+      box-sizing: border-box;
+      vertical-align: middle;
+    }
+    .search_wrapper, .end_wrapper{
+      width: 800px;
+      margin: 0 auto;
+    }
+    .search_form{
+      font-size: 0;
+      margin-top: 20px;
+    }
+    .search_input{
+      outline: 0;
+      border: 1px solid #b8b8b8;
+      height: 38px;
+      width: 85%;
+      padding: 0 12px;
+      font-size: 16px;
+      line-height: 38px;
+      z-index: 2;
+      position: relative;
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+    }
+    .search_input:focus{
+      box-shadow: 0px 0px 3px 0px #1fa3ef;
+      border: 1px solid #1fa3ef;
+    }
+    .search_btn{
+      outline: 0;
+      font-size: 16px;
+      height: 38px;
+      width: 15%;
+      line-height: 38px;
+      cursor: pointer;
+      text-align: center;
+      border: 1px solid #b8b8b8;
+      background: #fff;
+      border-left: none;
+      border-top-right-radius: 4px;
+      border-bottom-right-radius: 4px;
+    }
+    .search_btn:hover, .search_btn:focus, .search_btn:active{
+      background: #e8e8e8;
+    }
+  </style>
+</head>
+<body>
+  <h1># 聚 合 搜 索</h1>
+  <div class="weather_wrapper">
+    
+  </div>
+  <div class="search_wrapper">
+    <form class="search_form" action="https://www.baidu.com/s" target="_blank">
+      <input type="hidden" name="ie" value="UTF-8">
+      <input class="search_input" type="text" name="wd" placeholder="百度">
+      <button class="search_btn" type="submit">百度</button>
+    </form>
+    <form class="search_form" action="https://cn.bing.com/search" target="_blank">
+      <input class="search_input" type="text" name="q" placeholder="必应">
+      <button class="search_btn" type="submit">必应</button>
+    </form>
+    <form class="search_form" action="https://search.bilibili.com/all" target="_blank">
+      <input class="search_input" type="text" name="keyword" placeholder="bilibili">
+      <button class="search_btn" type="submit">哔哩哔哩</button>
+    </form>
+  </div>
+  <div class="end_wrapper">
+
+  </div>
+  <script>
+    
+  </script>
+</body>
+</html>
