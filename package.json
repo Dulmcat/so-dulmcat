@@ -1,0 +1,27 @@
+{
+  "name": "so-dulmcat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dulmcat/so-dulmcat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dulmcat/so-dulmcat/issues"
+  },
+  "homepage": "https://github.com/Dulmcat/so-dulmcat#readme",
+  "dependencies": {
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "mime": "^2.4.0",
+    "mz": "^2.7.0",
+    "nunjucks": "^3.1.7"
+  }
+}
